@@ -21,8 +21,8 @@ import java.io.OutputStream;
 import java.sql.Connection;
 import java.util.HashMap;
 
-@WebServlet("/SL_VW_Customer_List_Report")
-public class SL_VW_Customer_List_Report extends HttpServlet {
+@WebServlet("/SL_VW_Customer_List_Reporte")
+public class SL_VW_Customer_List_Reporte extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         try {

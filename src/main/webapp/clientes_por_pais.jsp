@@ -327,7 +327,7 @@
         function abrirReporte(){
             let pais_dropdown = document.getElementById('paises');
             let pais_value = pais_dropdown.options[pais_dropdown.selectedIndex].value;
-            window.open("SL_VW_Customer_List_Report?pais="+pais_value, '_blank');
+            window.open("SL_VW_Customer_List_Reporte?pais="+pais_value, '_blank');
         }
     </script>
 
