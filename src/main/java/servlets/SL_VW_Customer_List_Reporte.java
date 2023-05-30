@@ -31,7 +31,8 @@ public class SL_VW_Customer_List_Reporte extends HttpServlet {
 
             pais = request.getParameter("paises");
             System.out.println("Parametro: " + pais);
-
+            
+            
             HashMap<String, Object> hm = new HashMap<String, Object>();
             hm.put("pais", pais);
 
